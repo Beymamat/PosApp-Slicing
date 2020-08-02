@@ -161,7 +161,7 @@ section {
     display: flex;
     flex-direction: row;
     border: 1px solid #82DE3A;
-    border-radius: 5px;
+    border-radius: 2px;
     width: 80px;
     height: 25px;
     margin-left: 15px;
@@ -170,8 +170,14 @@ section {
     text-align: center;
     margin: 0;
     width: 100%;
+    background-color: rgba(130, 222, 58, 0.2);
     color: #82DE3A;
-    border-right: 1px solid #82DE3A;
+}
+.plusmin h6 {
+    text-align: center;
+    margin-top: 2px;
+    width: 100%;
+    color: #82DE3A;
 }
 .price h5 {
     font-size: small;

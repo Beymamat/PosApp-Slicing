@@ -27,7 +27,7 @@ article {
     height: max-content;
 }
 .desc {
-    width: 100%;
+    width: max-content
     height: 450px;
     margin-bottom: 30px;
     padding: 30px;
