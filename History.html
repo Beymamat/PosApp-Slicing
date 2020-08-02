@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>History</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="menu-container">
+                <img src="assets/img/menu (1).png" alt="menu">
+            </div>
+            <div class="title-history">
+                <h5>History</h5>
+            </div>
+        </header>
+        <section>
+            <div class="sidebar-container">
+                <div class="icon-container">
+                    <img src="assets/img/fork.png" alt="menu">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/clipboard.png" alt="menu">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/add.png" class="btn-add" alt="menu" data-toggle="modal" data-target="#addItem">
+                    <!-- Modal -->
+                    <div class="modal fade" id="addItem" tabindex="-1" role="dialog" aria-labelledby="addItemCenter" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="addItemTitle">Add Item</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-default">Image</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-default">Price</span>
+                                        </div>
+                                        <input type="text" class="form-control input-price" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Category</span>
+                                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                <div role="separator" class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Separated link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer modal-add">
+                                    <button type="button" class="btn btn-secondary">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="data-container">
+                <div class="data">
+                    <img src="assets/img/Card.png" alt="card1">
+                    <img src="assets/img/Card 2.png" alt="card2">
+                    <img src="assets/img/Card 3.png" alt="card3">
+                </div>
+                <div class="revenue">
+                    <img src="assets/img/Chart.png" alt="chart">
+                </div>
+                <div class="order-container">
+                    <h6>Recent Order</h6>
+                    <div class="title-table">
+                        <p>INVOICES</p>
+                        <p>CASHIER</p>
+                        <p>DATE</p>
+                        <p>ORDERS</p>
+                        <p>AMOUNTS</p>
+                    </div>
+                    <div class="isi-table">
+                        <p>#10928</p>
+                        <p class="cashier">Cashier 1</p>
+                        <p>06 October 2019</p>
+                        <p>Ice Tea, Salad With peanut sauce</p>
+                        <p>Rp. 120.000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div><!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
