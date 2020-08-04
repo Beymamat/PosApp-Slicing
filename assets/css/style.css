@@ -332,9 +332,20 @@ input .input-price {
     text-align: center;
     background-color: #FCFAFA;
 }
+.content-data {
+    display: flex;
+    flex-direction: row;
+}
 .data img {
     width: 330px;
     height: 190px;
+}
+.isi-card {
+    position: absolute;
+    width: 280px;
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 20px;
 }
 .revenue img {
     margin-top: 20px;
@@ -354,6 +365,15 @@ input .input-price {
     text-align: left;
     font-weight: bold;
     font-size: 20px;
+}
+.head-container {
+    display: flex;
+    flex-direction: row;
+}
+.head-container img {
+    margin-left: 720px;
+    width: 70px;
+    height: 20px;
 }
 .title-table {
     display: flex;
